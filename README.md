@@ -16,15 +16,15 @@ kospeech에서 제공하는 3가지 전처리 방식 중 character-unit 방식�
 
 1. Character-Unit
 
-`아 모 몬 소리야 칠 십 퍼센트 확률이라니`
+	`아 모 몬 소리야 칠 십 퍼센트 확률이라니`
 
 2. Subword-Unit
 
-`▁아 ▁모 ▁ 몬 ▁소리 야 ▁ 칠 ▁ 십 ▁퍼 센트 ▁확 률 이라 니`
+	`▁아 ▁모 ▁ 몬 ▁소리 야 ▁ 칠 ▁ 십 ▁퍼 센트 ▁확 률 이라 니`
 
 3. Grapheme-Unit
 
-`ㅇㅏ ㅁㅗ ㅁㅗㄴ ㅅㅗㄹㅣㅇㅑ ㅊㅣㄹ ㅅㅣㅂ ㅍㅓㅅㅔㄴㅌㅡ ㅎㅘㄱㄹㅠㄹㅇㅣㄹㅏㄴㅣ`
+	`ㅇㅏ ㅁㅗ ㅁㅗㄴ ㅅㅗㄹㅣㅇㅑ ㅊㅣㄹ ㅅㅣㅂ ㅍㅓㅅㅔㄴㅌㅡ ㅎㅘㄱㄹㅠㄹㅇㅣㄹㅏㄴㅣ`
 
 * 위의 전처리 방식들은 문장을 토큰화(문장을 최소 단위로 나누는 작업) 시키는 방식의 차이로 나눠집니다. 학습 시간의 제한 때문에 character-unit의 방식을 선택했습니다.
 
@@ -33,8 +33,8 @@ kospeech에서 제공하는 3가지 전처리 방식 중 character-unit 방식�
 
 * 해당 모델을 실행하기 전 필요한 모듈을 설치해주세요
 
-'''!pip install pandas
-!pip install sentencepiece'''
+	'''!pip install pandas
+	!pip install sentencepiece'''
 
 * 아래 코드는 kospeech
 
@@ -45,11 +45,11 @@ kospeech에서 제공하는 3가지 전처리 방식 중 character-unit 방식�
 
 * command
 
-`!python3 ./bin/inference.py --model_path $MODEL_PATH --audio_path $AUDIO_PATH --device $DEVICE`
+	`!python3 ./bin/inference.py --model_path $MODEL_PATH --audio_path $AUDIO_PATH --device $DEVICE`
 	
 * output
 
-`음성인식 결과 문장`
+	`음성인식 결과 문장`
 
 
 ## References
