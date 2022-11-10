@@ -71,13 +71,13 @@ pip install -e .
 
 ## Inference One Audio with Pre-train Model
 
-1. 하나의 오디오파일에 대한 음성인식 예측 (오디오 파일의 확장자는 wav)
+1. 하나의 오디오파일에 대한 음성인식 예측 (오디오 파일의 확장자 : wav)
  (코랩에서 사용시 경로 설정을 주의하세요. (device는 "cpu"로 설정하면 됩니다))
 
 * command
 
 ```
-python3 ./bin/inference.py --model_path $MODEL_PATH --audio_path $AUDIO_PATH --device $DEVICE
+python ./bin/inference.py --model_path $MODEL_PATH --audio_path $AUDIO_PATH --device $DEVICE
 ```
 	
 * output
