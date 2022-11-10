@@ -36,7 +36,7 @@ kospeech에서 제공하는 3가지 전처리 방식 중 character-unit 방식�
 * 해당 모델을 실행하기 전 필요한 모듈을 설치해주세요
 
 	```!pip install pandas
-	!pip install sentencepiece```
+	   !pip install sentencepiece```
 
 * 아래 코드는 kospeech
 
