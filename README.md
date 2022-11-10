@@ -49,5 +49,4 @@ kospeech에서 제공하는 3가지 전처리 방식 중 character-unit 방식�
 ## References
 
 * kospeech : [https://github.com/sooftware/kospeech](https://github.com/sooftware/kospeech)
-* letgodchan0 : [https://velog.io/@letgodchan0/%EC%9D%8C%EC%84%B1%EC%9D%B8%EC%8B%9D-%ED%95%9C%EA%B5%AD%EC%96%B4-STT-1](https://velog.io/@letgodchan0/%EC%9D%8C%EC%84%B1%EC%9D%B8%EC%8B%9D-%ED%95%9C%EA%B5%AD%EC%96%B4-STT-1)
-
+* letgodchan0 : [https://velog.io/tags/Kospeech](https://velog.io/tags/Kospeech)
