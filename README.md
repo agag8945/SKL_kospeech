@@ -1,5 +1,5 @@
 
-## SKL_KoreanSTT
+# SKL_KoreanSTT
 ## 한국어 STT 모델 개발 
 해당 프로젝트는 한국어 음성인식 toolkit인 [kospeech](https://github.com/sooftware/kospeech)를 활용하여 개발하였습니다. 
 
@@ -11,7 +11,7 @@ broadcast_01 폴더와 life_09 폴더에서 각각 5만개씩의 데이터, 총 
 * 음성인식 모델의 학습 준비에 필요한 단어사전(전사 데이터 이용), 단어사전을 바탕으로 한 정답 벡터화 하기 위해서는 전사데이터를 전처리하는 과정이 필요한데,
 kospeech에서 제공하는 3가지 전처리 방식 중 character-unit 방식을 통해 문장의 전처리를 진행했습니다. 
 
-# Output-Unit
+### Output-Unit
 
 * kospeech에서 제공하는 전처리 방식 
 
