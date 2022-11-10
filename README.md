@@ -13,7 +13,7 @@ broadcast_01 폴더와 life_09 폴더에서 각각 5만개씩의 데이터, 총 
  (코랩에서 사용시 경로 설정을 주의하세요 (device는 "cpu"로 설정하면 됩니다))
 
 * command
-	!python3 ./bin/inference.py --model_path $MODEL_PATH --audio_path $AUDIO_PATH --device $DEVICE
+```!python3 ./bin/inference.py --model_path $MODEL_PATH --audio_path $AUDIO_PATH --device $DEVICE```
 	
 * output
-  음성인식 결과 문장
+```음성인식 결과 문장```
